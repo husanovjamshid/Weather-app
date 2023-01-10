@@ -1,0 +1,45 @@
+body {
+  background-image: url("../images/pexels-johannes-plenio-1118873.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+
+.form-control {
+  outline: none !important;
+}
+
+.form-label:focus {
+  color: #fff !important;
+}
+
+input::placeholder {
+  color: #fff !important;
+}
+
+input:focus {
+  color: #fff !important;
+}
+
+.cityImg {
+  right: 150px;
+  /* font-size: 150px; */
+  width: 120px;
+  top: 250px;
+  animation-name: icon;
+  animation: 1s ease infinite;
+}
+
+@keyframes icon {
+  0% {
+    right: 200px !important;
+  }
+  50% {
+    right: 150px !important;
+  }
+  100% {
+    right: 200px !important;
+  }
+}
